@@ -1,0 +1,183 @@
+Downloading/unpacking qrcode
+  Getting page http://pypi.python.org/simple/qrcode
+  Could not fetch URL http://pypi.python.org/simple/qrcode: HTTP Error 404: Not Found
+  Will skip URL http://pypi.python.org/simple/qrcode when looking for download links for qrcode
+  Getting page http://pypi.python.org/simple/
+  URLs to search for versions for qrcode:
+  * http://pypi.python.org/simple/qrcode/
+  Getting page http://pypi.python.org/simple/qrcode/
+  Could not fetch URL http://pypi.python.org/simple/qrcode/: HTTP Error 404: Not Found
+  Will skip URL http://pypi.python.org/simple/qrcode/ when looking for download links for qrcode
+  Could not find any downloads that satisfy the requirement qrcode
+No distributions at all found for qrcode
+Exception information:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/usr/local/lib/python2.6/dist-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/local/lib/python2.6/dist-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 823, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/local/lib/python2.6/dist-packages/pip-0.6.3-py2.6.egg/pip/index.py", line 117, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for qrcode
+------------------------------------------------------------
+/usr/local/bin/pip run on Mon Mar 22 01:21:16 2010
+Downloading/unpacking pyx
+  Getting page http://pypi.python.org/simple/pyx
+  URLs to search for versions for pyx:
+  * http://pypi.python.org/simple/pyx/
+  Getting page http://pypi.python.org/simple/pyx/
+  Getting page http://pyx.sourceforge.net/
+  Getting page http://sourceforge.net/project/showfiles.php?group_id=45430
+  Analyzing links from page http://pypi.python.org/simple/PyX/
+    Skipping link http://pyx.sourceforge.net/ (from http://pypi.python.org/simple/PyX/); not a file
+    Skipping link http://sourceforge.net/project/showfiles.php?group_id=45430 (from http://pypi.python.org/simple/PyX/); unknown archive format: .php
+  Analyzing links from page http://pyx.sourceforge.net/
+    Skipping link http://pyx.sourceforge.net/pyx.ico (from http://pyx.sourceforge.net/); unknown archive format: .ico
+    Skipping link http://pyx.sourceforge.net/main.css (from http://pyx.sourceforge.net/); unknown archive format: .css
+    Skipping link http://pyx.sourceforge.net/news.html (from http://pyx.sourceforge.net/); unknown archive format: .html
+    Skipping link http://pyx.sourceforge.net/roadmap.html (from http://pyx.sourceforge.net/); unknown archive format: .html
+    Skipping link http://pyx.sourceforge.net/documentation.html (from http://pyx.sourceforge.net/); unknown archive format: .html
+    Skipping link http://pyx.sourceforge.net/examples/index.html (from http://pyx.sourceforge.net/); unknown archive format: .html
+    Skipping link http://pyx.sourceforge.net/gallery/index.html (from http://pyx.sourceforge.net/); unknown archive format: .html
+    Skipping link http://pyx.sourceforge.net/license.html (from http://pyx.sourceforge.net/); unknown archive format: .html
+    Skipping link http://sourceforge.net/projects/pyx/ (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://sourceforge.net/mail/?group_id=45430 (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://pyx.svn.sourceforge.net/viewcvs.cgi/pyx/trunk/pyx/CHANGES?view=markup (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://www.python.org/ (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://www.tug.org/ (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://partners.adobe.com/public/developer/ps/index_specs.html (from http://pyx.sourceforge.net/); unknown archive format: .html
+    Skipping link http://www.adobe.com/devnet/pdf/pdf_reference.html (from http://pyx.sourceforge.net/); unknown archive format: .html
+    Skipping link http://sourceforge.net/ (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://validator.w3.org/check/referer (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://jigsaw.w3.org/css-validator/check/referer (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://sourceforge.net/projects/pyx (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://www.dante.de/dante/events/mv35/ (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://pyx.sourceforge.net/presentation_dantemv35_de.pdf (from http://pyx.sourceforge.net/); unknown archive format: .pdf
+    Skipping link http://pyx.sourceforge.net/presentation_dantemv35_en.pdf (from http://pyx.sourceforge.net/); unknown archive format: .pdf
+    Skipping link http://theorie5.physik.unibas.ch/lehmann/ (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://www.pct.espci.fr/%7emichael/ (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://www.wobsta.de/ (from http://pyx.sourceforge.net/); not a file
+    Skipping link http://www.dante.de/ (from http://pyx.sourceforge.net/); not a file
+  Analyzing links from page http://sourceforge.net/projects/pyx/files/
+    Skipping link http://a.fsdn.com/con/img/favicon.ico (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .ico
+    Skipping link http://a.fsdn.com/con/css/sf.min.css?1268845250 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .css
+    Skipping link https://sourceforge.net/account/login.php (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/account/registration/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/softwaremap/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/develop/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/register/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/blog/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://p.sf.net/sourceforge/getsupport (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/about (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/users/joergl (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/users/wobsta (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/support (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/develop (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.10/PyX-0.10.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/?sort=filename&amp;sortdir=asc (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/?sort=date&amp;sortdir=asc (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=544104 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.10 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.10/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .10
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.9 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.9/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .9
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.9/PyX-0.9.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=419531 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.8.1 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.8.1/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .1
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.8.1/PyX-0.8.1.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=348929 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.8 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.8/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .8
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.8/PyX-0.8.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=341803 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.7.1 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.7.1/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .1
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.7.1/PyX-0.7.1.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=290101 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.7 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.7/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .7
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.7/PyX-0.7.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=276931 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.6.3 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.6.3/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .3
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.6.3/PyX-0.6.3.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=234226 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.6.2 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.6.2/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .2
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.6.2/PyX-0.6.2.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=229418 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.6.1 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.6.1/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .1
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.6.1/PyX-0.6.1.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=227652 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.6 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.6/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .6
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.6/PyX-0.6.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=227475 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.5.1 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.5.1/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .1
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.5.1/PyX-0.5.1.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=211808 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.5 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.5/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .5
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.5/PyX-0.5.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=211257 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.4.1 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.4.1/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .1
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.4.1/PyX-0.4.1.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=185208 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.4 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.4/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .4
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.4/PyX-0.4.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=179620 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.3.1 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.3.1/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .1
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.3.1/PyX-0.3.1.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=150869 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.3 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.3/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .3
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.3/PyX-0.3.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=149945 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2F0.2 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.2/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .2
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/0.2/PyX-0.2.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=134223 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/api/file/index/project-id/45430/mtime/desc/rss?path=%2Fpyx%2FPyX-0.1 (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/PyX-0.1/ (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .1
+    Skipping link http://sourceforge.net/projects/pyx/files/pyx/PyX-0.1/PyX-0.1.tar.gz/download (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/project/shownotes.php?release_id=114968 (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/support (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://geek.net/careers/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://geek.net/advertising/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/search/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/top/topalltime.php?type=downloads (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/top/mostactive.php (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://sourceforge.net/people/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/new/new_projects.php (from http://sourceforge.net/projects/pyx/files/); unknown archive format: .php
+    Skipping link http://twitter.com/sourceforge (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/apps/trac/sourceforge/wiki/WikiStart (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/apps/trac/sourceforge/wiki/Support (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://sourceforge.net/apps/wordpress/sourceforge/ (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://geek.net (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://p.sf.net/sourceforge/terms (from http://sourceforge.net/projects/pyx/files/); not a file
+    Skipping link http://p.sf.net/sourceforge/privacy (from http://sourceforge.net/projects/pyx/files/); not a file
+  Could not find any downloads that satisfy the requirement pyx
+No distributions at all found for pyx
+Exception information:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/usr/local/lib/python2.6/dist-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/local/lib/python2.6/dist-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 823, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/local/lib/python2.6/dist-packages/pip-0.6.3-py2.6.egg/pip/index.py", line 117, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for pyx
